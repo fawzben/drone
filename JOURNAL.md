@@ -133,6 +133,10 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 
 <img width="1710" height="1107" alt="Screenshot 2026-08-11 at 13 59 31" src="https://github.com/user-attachments/assets/e40c5102-673e-4f35-85cf-7b5a36a70d92" />
 
+- We can also have it plotted, graph 1 (rot. speed) after random rotation from rest, and graph 2 (accel.) is after dropping the IMU
+
+<img width="825" height="521" alt="Screenshot 2026-08-11 at 14 29 04" src="https://github.com/user-attachments/assets/5bcc8c43-6768-4684-a011-f9c405991be5" />
+<img width="803" height="506" alt="Screenshot 2026-08-11 at 14 26 14" src="https://github.com/user-attachments/assets/2fd7a70f-e27c-4c49-9248-5340f9350827" />
 
 
 
