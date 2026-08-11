@@ -125,6 +125,18 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 <img width="4032" height="3024" alt="IMG_6610" src="https://github.com/user-attachments/assets/abea6eb7-91ef-4cb9-8b00-fcf3a78e7315" />
 
 
+## Entry 6 (11/08/25)
+
+**What I did :**
+
+- Coded for live IMU data report. It works well, giving me 1g of acceleration and 0±1 deg/s of rotation at rest state. It also detects change in acceleration and rotational speed (cf. *IMU_data.ino*)
+
+<img width="1710" height="1107" alt="Screenshot 2026-08-11 at 13 59 31" src="https://github.com/user-attachments/assets/e40c5102-673e-4f35-85cf-7b5a36a70d92" />
+
+
+
+
+
 
 
 
