@@ -24,3 +24,14 @@ Once you have the desired pitched angle, the PID compares it with the IMU actual
 
 <img width="754" height="545" alt="Screenshot 2026-07-23 at 15 39 29" src="https://github.com/user-attachments/assets/06dd68a8-921a-4649-8105-581d04f174b7" />
 
+### Complementary filter
+
+<img width="774" height="350" alt="Screenshot 2026-08-16 at 13 09 07" src="https://github.com/user-attachments/assets/dfa2b14c-f9ec-4144-8ea8-c4301f91bb13" />
+
+**2 jobs :**
+
+1. converts velocity and acceleration into tilt using integration
+
+2. uses both gyroscope and acceleration to give a more precise tilt
+
+
