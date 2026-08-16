@@ -138,19 +138,33 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 <img width="825" height="521" alt="Screenshot 2026-08-11 at 14 29 04" src="https://github.com/user-attachments/assets/5bcc8c43-6768-4684-a011-f9c405991be5" />
 <img width="803" height="506" alt="Screenshot 2026-08-11 at 14 26 14" src="https://github.com/user-attachments/assets/2fd7a70f-e27c-4c49-9248-5340f9350827" />
 
+
 **Next steps:**
 
-- Sensor Offset Calibration: Write a setup function that averages ~500 IMU readings while flat on your desk to calculate zero-drift offsets, then subtracts them from live readings
+- [x] Sensor Offset Calibration: Write a setup function that averages ~500 IMU readings while flat on your desk to calculate zero-drift offsets, then subtracts them from live readings
 
-- Attitude Filtering (Angle Calculation): Implement a Complementary Filter or Madgwick Algorithm to fuse raw accelerometer (g) and gyroscope (deg/s) data into clean Roll and Pitch angles in degrees
+- [ ] Attitude Filtering (Angle Calculation): Implement a Complementary Filter or Madgwick Algorithm to fuse raw accelerometer (g) and gyroscope (deg/s) data into clean Roll and Pitch angles in degrees
 
-- Non-Blocking Timing Loop: Convert your main code to run at a strict 250 Hz frequency (4000 μs period) using micros() instead of delay()
+- [ ] Non-Blocking Timing Loop: Convert your main code to run at a strict 250 Hz frequency (4000 μs period) using micros() instead of delay()
 
-- PID Controller Framework: Structure the basic Proportional-Integral-Derivative equations for Roll, Pitch, and Yaw to prepare for motor control output
+- [ ] PID Controller Framework: Structure the basic Proportional-Integral-Derivative equations for Roll, Pitch, and Yaw to prepare for motor control output
 ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO pins to verify motor throttle control signals on the Serial Plotter
 
 
-- Buy radio controller + receiver + battery stuff
+- [ ] Buy radio controller + receiver + battery stuff
+
+
+## Entry 7 (16/08/25)
+
+**What I did :**
+
+- I did the calibration. It allows for less noise (*Graph 1 (left) = no calibration --- Graph 2 (right) = calibrated*)
+
+<p align="center">
+  <img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/40c2f90d-2614-43dd-b71c-5934efe723e3" />
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/e4627b89-4066-428f-8d0c-ac70c7e46380"/> 
+
+</p>
 
 
 
