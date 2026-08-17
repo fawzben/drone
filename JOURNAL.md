@@ -172,6 +172,11 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 </p>
 
 
+- Did the complementary filter. With mechanics (see dynamics.md) we can use gyro and accel values to compute accurate pitch and roll (not yaw tho). Code is Pitch_roll_values.ino
+
+<img width="801" height="496" alt="Screenshot 2026-08-17 at 18 43 52" src="https://github.com/user-attachments/assets/2219b6b7-dca2-4ddd-894a-f2ba8481bf78" />
+
+- We see a clear discrepency (in smoothness) between values from accelerometer only and from accel+gyro.
 
 
 
