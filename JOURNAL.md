@@ -146,11 +146,11 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 
 - [x] Sensor Offset Calibration: Write a setup function that averages ~500 IMU readings while flat on your desk to calculate zero-drift offsets, then subtracts them from live readings
 
-- [ ] Attitude Filtering (Angle Calculation): Implement a Complementary Filter or Madgwick Algorithm to fuse raw accelerometer (g) and gyroscope (deg/s) data into clean Roll and Pitch angles in degrees
+- [x] Attitude Filtering (Angle Calculation): Implement a Complementary Filter or Madgwick Algorithm to fuse raw accelerometer (g) and gyroscope (deg/s) data into clean Roll and Pitch angles in degrees
 
 <img width="400" height="150" alt="Screenshot 2026-08-16 at 13 06 36" src="https://github.com/user-attachments/assets/d3b20c29-980e-4105-9ed3-2ae4483c186e" />
 
-- [ ] Non-Blocking Timing Loop: Convert your main code to run at a strict 250 Hz frequency (4000 μs period) using micros() instead of delay()
+- [x] Non-Blocking Timing Loop: Convert your main code to run at a strict 250 Hz frequency (4000 μs period) using micros() instead of delay()
 
 - [ ] PID Controller Framework: Structure the basic Proportional-Integral-Derivative equations for Roll, Pitch, and Yaw to prepare for motor control output
 ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO pins to verify motor throttle control signals on the Serial Plotter
