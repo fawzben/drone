@@ -1,7 +1,7 @@
 # ME-PROJECT-BUILDING-A-DRONE-FROM-SCRATCH
 Summer holiday between 1st and 2nd year EPFL ME. I want to build a fully functional drone
 
-## Entry 1 (19/07/25)
+## Entry 1 (19/07/26)
 
 ### Goal :
 - Document about how drones work  
@@ -42,7 +42,7 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 - get insight on electronic components, how to use them
 
 
-## Entry 2 (20/08/25)
+## Entry 2 (20/08/26)
 
 
 **What I did :**
@@ -69,7 +69,7 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 - Do more of the physics (particularly dynamics, structure and material resistance)
 
 
-## Entry 3 (22/08/25)
+## Entry 3 (22/08/26)
 
 **What I did :**
 
@@ -80,7 +80,7 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 
 <img width="1233" height="859" alt="Screenshot 2026-07-22 at 13 04 00" src="https://github.com/user-attachments/assets/5e556e6b-443d-404a-99b9-d808baaa474a" />
 
-## Entry 4 (25/08/25)
+## Entry 4 (25/08/26)
 
 **What I did :**
 
@@ -105,7 +105,7 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 
 - (Order the other stuff)
 
-## Entry 5 (5/08/25)
+## Entry 5 (5/08/26)
 
 ** What I did during 10 days** : 
 
@@ -125,7 +125,7 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 <img width="4032" height="3024" alt="IMG_6610" src="https://github.com/user-attachments/assets/abea6eb7-91ef-4cb9-8b00-fcf3a78e7315" />
 
 
-## Entry 6 (11/08/25)
+## Entry 6 (11/08/26)
 
 **What I did :**
 
@@ -159,7 +159,7 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 - [ ] Buy radio controller + receiver + battery stuff
 
 
-## Entry 7 (16/08/25)
+## Entry 7 (16/08/26)
 
 **What I did :**
 
@@ -180,8 +180,17 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 
 - We see a clear discrepency (in smoothness) between values from accelerometer only and from accel+gyro.
 
+# Entry 8 (20/08/26)
 
+**To-do** : 
 
+- [ ] PID loop : no need for actual controller data, I can manually input desired commands and check on serial plotter
+
+- [ ] Motor matrix mixer : how each motor will act to correct the PID error
+
+- [ ] ESP32 output on ESC : exactly how signal translates to motor speed
+
+- [ ] Buy and plug in radio receiver
 
 
 
