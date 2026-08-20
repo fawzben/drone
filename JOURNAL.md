@@ -180,7 +180,7 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 
 - We see a clear discrepency (in smoothness) between values from accelerometer only and from accel+gyro.
 
-# Entry 8 (20/08/26)
+## Entry 8 (20/08/26)
 
 **To-do** : 
 
