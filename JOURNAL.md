@@ -196,12 +196,18 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 ## Entry 9 (30/08/26)
 
 
-*Note : Pitch and roll must be capped at < |90deg| (or even ±45deg possibly) through radio sticks. Above the ±90 mark, Euler Angles and atan methods are no longer applicable (pitch and roll get mixed up,...)
+*Note : Pitch and roll must be capped at < |90deg| (or even ±45deg possibly) through radio sticks. Above the ±90 mark, Euler Angles and atan methods are no longer applicable (pitch and roll get mixed up,...)*
 
 
 **What I did** : 
 
-- PID loop : integrated it to the Pitch-roll complementary filter. 
+- PID loop : integrated it to the Pitch-roll complementary filter. Few edits and adjustements made (used directly gyro angular speed for derivative term, slight tuning by orders of magnitude to get reasonable correction). File is PID_IMU_combination_v3
+
+<img width=45% alt="Screenshot 2026-08-30 at 15 52 28" src="https://github.com/user-attachments/assets/a2616664-fc6f-4e1f-8c5c-3175ce93179b" />
+<img width=45% alt="Screenshot 2026-08-30 at 15 52 17" src="https://github.com/user-attachments/assets/f7f117d5-6de8-48f2-a04e-6de0669c041a" />
+
+
+**Healthy correction response, good frequency, not much noise. Tuning will be done once drone fully built
 
 
 
