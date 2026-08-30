@@ -207,7 +207,7 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 <img width=45% alt="Screenshot 2026-08-30 at 15 52 17" src="https://github.com/user-attachments/assets/f7f117d5-6de8-48f2-a04e-6de0669c041a" />
 
 
-**Healthy correction response, good frequency, not much noise. Tuning will be done once drone fully built
+**Healthy correction response, good frequency, not much noise. Tuning will be done once drone fully built. D_term and I_term will be more noticeable in real conditions, with wind and actual stick commands
 
 
 
