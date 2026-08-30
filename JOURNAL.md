@@ -184,13 +184,24 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 
 **To-do** : 
 
-- [ ] PID loop : no need for actual controller data, I can manually input desired commands and check on serial plotter
+- [x] PID loop : no need for actual controller data, I can manually input desired commands and check on serial plotter
 
 - [ ] Motor matrix mixer : how each motor will act to correct the PID error
 
 - [ ] ESP32 output on ESC : exactly how signal translates to motor speed
 
 - [ ] Buy and plug in radio receiver
+
+
+## Entry 9 (30/08/26)
+
+
+*Note : Pitch and roll must be capped at < |90deg| (or even ±45deg possibly) through radio sticks. Above the ±90 mark, Euler Angles and atan methods are no longer applicable (pitch and roll get mixed up,...)
+
+
+**What I did** : 
+
+- PID loop : integrated it to the Pitch-roll complementary filter. 
 
 
 
