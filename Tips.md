@@ -35,3 +35,11 @@ Once you have the desired pitched angle, the PID compares it with the IMU actual
 2. uses both gyroscope and acceleration to give a more precise tilt
 
 
+### Motor mixing matrix 
+
+- Matrix that tells each motor how much power (with microseconds units) to produce in order to achieve the wanted position/movement. The ESCs translates microseconds pulse signals to actual RPM.
+
+<img width="804" height="580" alt="Screenshot 2026-08-31 at 13 27 39" src="https://github.com/user-attachments/assets/01dc2e9a-3cce-4f06-82ec-43b74017ccad" />
+
+
+
