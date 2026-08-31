@@ -41,5 +41,11 @@ Once you have the desired pitched angle, the PID compares it with the IMU actual
 
 <img width="804" height="580" alt="Screenshot 2026-08-31 at 13 27 39" src="https://github.com/user-attachments/assets/01dc2e9a-3cce-4f06-82ec-43b74017ccad" />
 
+### ESP32 signal to ESCs
+
+[ Software Mixer ] ──(1000 to 2000 µs)──> [ ESP32 LEDC PWM Hardware ] ──(High/Low Pulses)──> [ ESC ] ──(3-Phase AC)──> [ Motor Spins at RPM ]
+
+- We choose 4 output pins to transmit the signals for 4 motors to the ESC
+
 
 
