@@ -224,6 +224,23 @@ Motor matrix mixer : I added the matrix to my program, and the pitch/roll/yawRat
 
 *above each motor pulse signals for a simple roll, pitch and yaw. For yaw, it corrects the rate, so the angular speed but not the orientation (what we want) *
 
+**ESP32 ouput on ESC**
 
+*will use the ESP32 servo library, lightweight and simple function writeMicroseconds(pin, val)*
+
+Pins layout (kinda arbitrary, just avoid strapping and input-only pins):
+
+M1 (Rear-Right): GPIO 13
+M2 (Front-Right): GPIO 14
+M3 (Rear-Left): GPIO 27
+M4 (Front-Left): GPIO 26
+
+Arming and safety :
+
+- must first send a 2-3sec 1000us signal to inform the ESC that the drone is at rest
+
+- must tell the max and min signal for all motors (1000us-2000us)
+
+*added the output pins and set up PWM channels for each motor, that I combined with PID and motor mixing. Now, the ESC receives the right pulse signals, and translates it to RPM using internal programs*
 
 
