@@ -222,6 +222,7 @@ Motor matrix mixer : I added the matrix to my program, and the pitch/roll/yawRat
 <img width=33% alt="Screenshot 2026-08-31 at 13 58 37" src="https://github.com/user-attachments/assets/7582dfe1-c512-46f7-9b95-2723a2a48af5" />
 <img width=33% alt="Screenshot 2026-08-31 at 13 58 03" src="https://github.com/user-attachments/assets/440f24cb-3494-4213-8059-3c2860fe8413" />
 
+*above each motor pulse signals for a simple roll, pitch and yaw. For yaw, it corrects the rate, so the angular speed but not the orientation (what we want) *
 
 
 
