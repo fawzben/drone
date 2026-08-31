@@ -152,8 +152,11 @@ This sequence happens with a frequency of $\approx200\left\lbrack Hz\right\rbrac
 
 - [x] Non-Blocking Timing Loop: Convert your main code to run at a strict 250 Hz frequency (4000 μs period) using micros() instead of delay()
 
-- [ ] PID Controller Framework: Structure the basic Proportional-Integral-Derivative equations for Roll, Pitch, and Yaw to prepare for motor control output
-ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO pins to verify motor throttle control signals on the Serial Plotter
+- [x] PID Controller Framework: Structure the basic Proportional-Integral-Derivative equations for Roll, Pitch, and Yaw to prepare for motor control output
+
+  
+- [ ] ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO pins to verify motor throttle control signals on the Serial Plotter
+
 
 
 - [ ] Buy radio controller + receiver + battery stuff
@@ -186,7 +189,7 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 
 - [x] PID loop : no need for actual controller data, I can manually input desired commands and check on serial plotter
 
-- [ ] Motor matrix mixer : how each motor will act to correct the PID error
+- [x] Motor matrix mixer : how each motor will act to correct the PID error
 
 - [ ] ESP32 output on ESC : exactly how signal translates to motor speed
 
@@ -208,6 +211,16 @@ ESC Signal Generator: Set up 4 ESP32 PWM channels (or DShot protocols) on GPIO p
 
 
 **Healthy correction response, good frequency, not much noise. Tuning will be done once drone fully built. D_term and I_term will be more noticeable in real conditions, with wind and actual stick commands
+
+## Entry 10 (31/08/26)
+
+**What I did :**
+
+Motor matrix mixer : I added the matrix to my program, and the pitch/roll/yawRate corrections now translates into motor pulse signal. 
+
+<img width=33% alt="Screenshot 2026-08-31 at 13 58 48" src="https://github.com/user-attachments/assets/e5320839-02b4-47fe-af51-553e6a4b8ed3" />
+<img width=33% alt="Screenshot 2026-08-31 at 13 58 37" src="https://github.com/user-attachments/assets/7582dfe1-c512-46f7-9b95-2723a2a48af5" />
+<img width=33% alt="Screenshot 2026-08-31 at 13 58 03" src="https://github.com/user-attachments/assets/440f24cb-3494-4213-8059-3c2860fe8413" />
 
 
 
