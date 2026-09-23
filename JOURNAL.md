@@ -248,4 +248,18 @@ Arming and safety :
 
 *added the output pins and set up PWM channels for each motor, that I combined with PID and motor mixing. Now, the ESC receives the right pulse signals, and translates it to RPM using internal programs*
 
+## Entry 11 (23/09/26)
+
+**What I did**
+
+- connected the radio receiver (bound to the controller) to the esp32. program ... now gives real time commands (20 or 50Hz) to the esp32
+
+**Problems encountered** 
+
+- 1st CRSF library (CRSFForArduino) used was not transmitting receiver data correctly. Used (AlfredoCRSF) instead, and it works perfectly, using standard functions (begin, update, getChannel)
+
+**To-do**
+
+- Integrate the code into PID/motormixing program (main) , replacing "target" with those values for Pitch, Roll and Yaw
+
 
