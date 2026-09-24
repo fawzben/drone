@@ -254,6 +254,9 @@ Arming and safety :
 
 - connected the radio receiver (bound to the controller) to the esp32. program ... now gives real time commands (20 or 50Hz) to the esp32
 
+<img width=50% height=50% alt="IMG_6892" src="https://github.com/user-attachments/assets/86ade479-cafc-4100-8acd-5e1345770198" />
+*setup for testing (soldering later)*
+
 **Problems encountered** 
 
 - 1st CRSF library (CRSFForArduino) used was not transmitting receiver data correctly. Used (AlfredoCRSF) instead, and it works perfectly, using standard functions (begin, update, getChannel)
