@@ -265,4 +265,27 @@ Arming and safety :
 
 - Integrate the code into PID/motormixing program (main) , replacing "target" with those values for Pitch, Roll and Yaw
 
+## Entry 12 (11/10/26)
+
+**What I did** : 
+
+- soldered battery xt6 cable to ESC (was a real pain bc of cable thickness)
+
+<img width=33% height=33% alt="IMG_6980" src="https://github.com/user-attachments/assets/a6ad24bd-e19c-4fb5-abf1-dc7528a2805a" />
+<img width=30% height=30% alt="IMG_6981" src="https://github.com/user-attachments/assets/c09ab120-5772-4c3a-9bf0-185255eb5c9b" />
+<img width=33% height=33% alt="IMG_6982" src="https://github.com/user-attachments/assets/28170aea-efc2-49f6-aecc-88eab7580754" />
+
+Got the RX code into main program, works well, gives me real time motor pulsation based both on current state AND radio commands
+
+**To-do next** : 
+
+- [ ] bit more soldering : rx receiver to ESP32, ESC to ESP32
+- [ ] Drawing and planning exact assembly with components, wires,...
+- [ ] OPTIONAL : CAD receptacle for components if no assembly solution
+
+- [ ] Ensure pulsation transmission to ESC and ESC converting to RPM for motors
+
+
+
+
 
