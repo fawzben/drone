@@ -25,3 +25,14 @@ Gemini estimation
 - More in detail : 
 https://www.youtube.com/watch?v=p7tjtLkIlFo
 
+## Vibration dampening
+
+Goal : find an insulating method that blocks vibration going into center plate components (especially IMU)
+
+https://youtu.be/TMcUXRPpTJ4?si=pyg5SXwx1FnLabNb
+
+<img width="1533" height="523" alt="Screenshot 2026-10-16 at 10 23 10" src="https://github.com/user-attachments/assets/ec3eeec0-2d15-489e-86bc-d1de310c5b85" />
+*moon gel seems best for this. will try making some DIY*
+
+
+
