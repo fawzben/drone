@@ -34,3 +34,30 @@
 
 <img width="1259" height="830" alt="Screenshot 2026-08-03 at 14 45 27" src="https://github.com/user-attachments/assets/9713a8cd-2567-4c91-bed0-ec517f7d2adb" />
 
+## New version 
+
+- had to make slots and compartments for all components. I measured, calculated, and made this
+
+<img width="1352" height="682" alt="Screenshot 2026-10-18 at 15 08 46" src="https://github.com/user-attachments/assets/f1042cda-7edc-42a8-a1be-939c7256ac06" />
+<img width="1290" height="767" alt="Screenshot 2026-10-18 at 16 17 15" src="https://github.com/user-attachments/assets/4a0c7fe0-b9ab-4a5d-ba12-ef401cd4fba0" />
+<img width="1306" height="726" alt="Screenshot 2026-10-18 at 21 01 14" src="https://github.com/user-attachments/assets/5d7ede9b-ba11-4d1a-bba0-1823b547a9a4" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
