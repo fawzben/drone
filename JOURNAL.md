@@ -280,10 +280,11 @@ Got the RX code into main program, works well, gives me real time motor pulsatio
 **To-do next** : 
 
 - [ ] bit more soldering : rx receiver to ESP32, ESC to ESP32
-- [ ] Drawing and planning exact assembly with components, wires,...
-- [ ] OPTIONAL : CAD receptacle for components if no assembly solution
+- [x] Drawing and planning exact assembly with components, wires,...
+- [x] OPTIONAL : CAD receptacle for components if no assembly solution
 
-- [ ] Ensure pulsation transmission to ESC and ESC converting to RPM for motors
+- [x] Ensure pulsation transmission to ESC and ESC converting to RPM for motors
+       - [ ] needs testing after soldering
 
 ## Entry 13 (11/10/26)
 
