@@ -42,6 +42,9 @@
 <img width="1290" height="767" alt="Screenshot 2026-10-18 at 16 17 15" src="https://github.com/user-attachments/assets/4a0c7fe0-b9ab-4a5d-ba12-ef401cd4fba0" />
 <img width="1306" height="726" alt="Screenshot 2026-10-18 at 21 01 14" src="https://github.com/user-attachments/assets/5d7ede9b-ba11-4d1a-bba0-1823b547a9a4" />
 
+*for the rest of the components, I can simply apply some blu-tack at the bottom*
+
+
 
 
 
