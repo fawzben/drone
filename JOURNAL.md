@@ -285,7 +285,15 @@ Got the RX code into main program, works well, gives me real time motor pulsatio
 
 - [ ] Ensure pulsation transmission to ESC and ESC converting to RPM for motors
 
+## Entry 13 (11/10/26)
 
+**What I did** : 
+
+- CADed a 2nd version ready-to-print model (see CAD section)
+
+**What to do** : 
+
+- CAD : take into account printer's parameters to do press fit on components OR zip-ties + blue tack does the trick
 
 
 
