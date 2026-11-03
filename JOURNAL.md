@@ -296,5 +296,32 @@ Got the RX code into main program, works well, gives me real time motor pulsatio
 
 - CAD : take into account printer's parameters to do press fit on components OR zip-ties + blue tack does the trick
 
+## Entry 14 (3/11/12)
+
+- Printed that 2nd version & soldered a bit to ESP32
+<img width=45% height=45% alt="IMG_7063" src="https://github.com/user-attachments/assets/f27c5fae-8f83-4d75-8661-a738786db6dc" />
+<img width=45% height=45% alt="Screenshot 2026-10-30 at 15 24 50" src="https://github.com/user-attachments/assets/81dbfb44-4ef2-4dc1-a9f1-94d6e46c7e59" />
+
+
+### To-do next
+
+**Printed frame problems**
+
+1. ESP32 case too small, change chanfrein's R / remove the screwholes on the components
+
+2. see if zip-tie goes through
+
+
+**Soldering**
+
+1. desolder stuff to fit in frame and resolder
+2. solder 1 motor to ESP32
+3. cut pins on ESP32
+4. unsolder and remove pins on IMU (will try and solder through the holes to keep the IMU flat)
+
+
+
+
+
 
 
